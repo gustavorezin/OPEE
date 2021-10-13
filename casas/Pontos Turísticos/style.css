@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(360deg, #dacb00dc, #e0eb508e);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    background: white;
+    max-width: 350px;
+    min-height: 45vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+main h1 {
+    position: relative;
+    cursor: default;
+}
+
+main h1::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 240px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(360deg, #f6ff7e7c, #eeff00);
+}
+
+main h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.info {
+    font-size: 1.05rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.comprar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.botaoComprar {
+    background-color: #eeff00;
+    border: black;
+    color: black;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botaoComprar:hover {
+    background-color: #ddc705e1;
+}
+
+p{
+    color: red;
+}
+
+footer a{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
