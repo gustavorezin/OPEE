@@ -38,7 +38,7 @@ main h1::before {
     bottom: 3px;
     left: 0;
     border-radius: 8px;
-    background: linear-gradient(360deg, #567dff, #bce1f1);
+    background: linear-gradient(360deg, #ffee00, #ff0101);
 }
 
 .casas{
@@ -55,9 +55,9 @@ main h1::before {
 }
 
 .pontosTuristicos {
-    background:rgba(255, 238, 0, 0.438);
+    background:#ffee0070;
 }
 
 .ruas{
-    background:rgba(255, 1, 1, 0.432);
+    background:#ff01016e;
 }
